@@ -7698,27 +7698,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KranthiPolasa\\.nuget\\packages\\": {}
+    "/Users/anusha/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Lab1\\AccountManagement\\AccountManagement.csproj",
+      "projectUniqueName": "/Applications/AccountManagement/AccountManagement/AccountManagement.csproj",
       "projectName": "AccountManagement",
-      "projectPath": "C:\\Lab1\\AccountManagement\\AccountManagement.csproj",
-      "packagesPath": "C:\\Users\\KranthiPolasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Lab1\\AccountManagement\\obj\\",
+      "projectPath": "/Applications/AccountManagement/AccountManagement/AccountManagement.csproj",
+      "packagesPath": "/Users/anusha/.nuget/packages/",
+      "outputPath": "/Applications/AccountManagement/AccountManagement/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\KranthiPolasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/anusha/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7782,7 +7780,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

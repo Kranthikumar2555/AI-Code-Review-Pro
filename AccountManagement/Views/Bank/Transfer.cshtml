@@ -1,0 +1,94 @@
+@model CourseManagement.Models.TransferViewModel;
+
+@{
+    ViewBag.Title = "Bank Transfer";
+}
+
+<h2>Bank Transfer</h2>
+
+@using (Html.BeginForm("Transfer", "Bank", FormMethod.Post, new { id = "transferForm" }))
+{
+    @Html.ValidationSummary(true)
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.FromAccount)
+        @Html.TextBoxFor(m => m.FromAccount, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FromAccount)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.ToAccount)
+        @Html.TextBoxFor(m => m.ToAccount, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.ToAccount)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Amount)
+        @Html.TextBoxFor(m => m.Amount, new { @class = "form-control", type = "number", step = "0.01" })
+        @Html.ValidationMessageFor(m => m.Amount)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Description)
+        @Html.TextBoxFor(m => m.Description, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Description)
+    </div>
+
+    <button type="submit" value="submit" class="btn btn-primary">Transfer</button>
+    <div id="error" style="color: red;"></div>
+}
+
+@section Scripts {
+    
+    <script src="~/scripts/jquery.validate.min.js"></script>
+    <script src="~/scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    <script type="">
+        
+        $(document).ready(function () {
+            alert('document ready');
+        $('#transferForm').on('submit', function(event) {
+            alert('submit form ');
+            event.preventDefault(); // Prevent the default form submission
+             rules: {
+                    FromAccount: {
+                        required: true
+                    },
+                    ToAccount: {
+                        required: true
+                    },
+                    Amount: {
+                        required: true,
+                        min: 0.01
+                    },
+                    Description : {
+                        required:true
+                    }
+                },
+                messages: {
+                    FromAccount: {
+                        required: "Please enter the from account."
+                    },
+                    ToAccount: {
+                        required: "Please enter the to account."
+                    },
+                    Amount: {
+                        required: "Please enter an amount.",
+                        min: "Amount must be greater than 0."
+                    },
+                    Description: {
+                        required: "Please enter description."
+                    
+                    }
+                },
+                submitHandler: function (form) {
+                    // If needed, you can add additional logic before form submission
+                    debugger;
+                    alert('before form submit');
+                    form.submit();
+                }
+        });
+    </script>
+
+     
+    }
